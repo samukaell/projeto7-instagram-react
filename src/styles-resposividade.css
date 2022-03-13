@@ -15,10 +15,18 @@
 
 @media (max-width: 614px){
     
-    .conteudo,.header,.topo, .stories-posts, .slider-bar, .posts, .post,.user,.user .lateral, .feedback, .stories, .corpo, .centro{
+    .conteudo,.stories-posts, .slider-bar, .posts, .post,.user,.user .lateral, .feedback, .stories, .corpo, .centro{
         width: 100%;
     }
-
+    .header{
+        width: 100%;
+    }
+    .topo{
+        width: 100%;
+    }
+    .feedback .curtido{
+        margin-left: 0;
+    }
     .header .logo{
         width: 60vw;
         justify-content: space-between;
