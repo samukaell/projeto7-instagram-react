@@ -1,0 +1,9 @@
+.icones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icones .aviao ,.icones .descubra,.icones .curtidas,.icones .contatos{
+    margin-left: 28px;
+    font-size: 20px;
+}
